@@ -5,10 +5,15 @@ body {
   width: 95vw;
   height: 100vh;
   background-color: #181A1B;
+  caret-color: transparent;
 }
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   color: #fff;
+}
+
+.content{
+  filter: grayscale(30%);
 }
