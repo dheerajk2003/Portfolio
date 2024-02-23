@@ -1,7 +1,7 @@
 export function Skills() {
     return (
         <div id="skills" className="w-full h-screen pt-14">
-            <h2 className="w-20 mx-auto absolute -translate-x-1/2 left-1/2 text-4xl font-base border-b border-white border-1 ">Skills</h2>
+            <h2 className="w-20 mx-auto absolute -translate-x-1/2 left-1/2 text-4xl font-base border-b border-white border-1 content">Skills</h2>
             <div className="w-full h-full m-x-auto p-24 pt-32 grid grid-cols-4 gap-28">
                 <div className="w-full h-full rounded-3xl border border-1 border-white    overflow-hidden relative innerdiv"><img className="scale-75" src="./svgs/node.svg" alt="" />
                 <div className="absolute w-full h-full top-0 left-0 bg-slate-200 flex flex-col justify-center items-center child translate-y-full transition-transform">
