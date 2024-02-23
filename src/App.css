@@ -13,19 +13,27 @@ body {
   box-sizing: border-box;
   color: #fff;
 }
-
-.content{
-  filter: grayscale(50%);
-}
-
-.skillBox::before{
-  content: "";
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  background-color: rgb(218, 213, 224);
-  z-index: 5;
-}
 .innerdiv:hover .child{
   transform: translateY(0%);
+}
+.shaBox:hover{
+  transform: translateY(5px);
+}
+.links{
+  border: none;
+}
+.links::before{
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  margin-top: 2px;
+  border-radius: 5px;
+  background-color: white;
+  transition: all ease 0.2s;
+}
+.links:hover::before{
+  width: 100%;
 }

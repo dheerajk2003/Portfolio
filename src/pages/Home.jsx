@@ -14,7 +14,7 @@ export function Home(){
                         <p className="text-lg">Bacherlor of Computer Applications</p>
                     </div>
                 </div>
-                <div className="h-80 w-80 ml-10 border border-1 border-white rounded-full overflow-hidden">
+                <div className="h-80 w-80 ml-10 border border-3 border-white rounded-full overflow-hidden">
                     <img className="object-fill" src="./profile.jpg" alt="profile" />
                 </div>
             </div>

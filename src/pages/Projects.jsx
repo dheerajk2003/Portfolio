@@ -1,9 +1,9 @@
 export function Projects() {
     return (
-        <div id="projects" className="w-full h-screen pt-14">
+        <div id="projects" className="w-full h-screen pt-14 relative">
             <h2 className="w-32 mx-auto absolute -translate-x-1/2 left-1/2 text-4xl font-base border-b border-white border-1 ">Projects</h2>
             <div className="w-full h-full p-20 flex justify-around items-center">
-                <div className="w-1/3 h-4/5 m-5 border border-1 border-white rounded-2xl overflow-hidden">
+                <div className="w-1/3 h-4/5 m-5 border border-1 border-white rounded-2xl overflow-hidden transition-all shaBox">
                     <img className="w-full" src="./recipe.jpg" alt="" />
                     <div className="h-1/2 px-5 flex flex-col justify-between">
                         <div>
@@ -19,7 +19,7 @@ export function Projects() {
                         </div>
                     </div>
                 </div>
-                <div className="w-1/3 h-4/5 m-5 border border-1 border-white rounded-2xl overflow-hidden">
+                <div className="w-1/3 h-4/5 m-5 border border-1 border-white rounded-2xl overflow-hidden transition-all shaBox">
                     <img className="w-full" src="./kmm.jpg" alt="" />
                     <div className="h-1/2 px-5 flex flex-col justify-between">
                         <div>
@@ -35,7 +35,7 @@ export function Projects() {
                         </div>
                     </div>
                 </div>
-                <div className="w-1/3 h-4/5 m-5 border border-1 border-white rounded-2xl overflow-hidden">
+                <div className="w-1/3 h-4/5 m-5 border border-1 border-white rounded-2xl overflow-hidden transition-all shaBox">
                     <img className="w-full" src="./recipe.jpg" alt="" />
                     <div className="h-1/2 px-5 flex flex-col justify-between">
                         <div>
@@ -52,6 +52,7 @@ export function Projects() {
                     </div>
                 </div>
             </div>
+            <a className="absolute bottom-20 left-1/2 -translate-x-1/2" href="https://github.com/dheerajk2003">see other projects.</a>
         </div>
     )
 }
