@@ -7,7 +7,7 @@ export function Home(){
             <div className="h-full w-full p-14 flex justify-around items-center">
                 <div className="mt-5 md:mr-10 border border-1 border-white rounded-2xl p-10 py-14 shaBox">
                     <h1 className="text-6xl font-bold mb-2 content inline-block">Hi,</h1>
-                    <h1 className="text-6xl font-bold mb-2 content inline-block">I am' Dheeraj,</h1>
+                    <h1 className="text-6xl font-bold mb-2 content block">I am' Dheeraj,</h1>
                     <div className="mt-6 mb-2">
                         <p className="text-lg content">Full Stack Web Developer</p>
                         <p className="text-lg content">Currently Persuing</p>
