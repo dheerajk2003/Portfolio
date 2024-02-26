@@ -54,8 +54,13 @@ function cursorEffect() {
 
 export function Landing() {
     useEffect(() => {
-        cursorMove();
-        cursorEffect();
+        const bw = document.getElementsByTagName("body")[0].offsetWidth;
+        
+        if(bw > 650){
+            console.log(bw);
+            cursorMove();
+            cursorEffect();
+        }
     }, []);
     return (
         <div className="w-full h-full">
