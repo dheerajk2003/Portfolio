@@ -11,10 +11,10 @@ export function Resume(){
             <h2 className="font-semibold text-xl mt-2">Projects</h2>
             <hr />
             <ul className="list-disc mx-5 my-3">
-                <li className="text-gray-300">A full stack website to view and upload travel blogs, created using <b>Dotnet</b> framework and <b>MsSQL</b>. <a href="https://www.github.com/dheerajk2003/Travelsy">Repo</a></li>
-                <li className="text-gray-300">A full stack website to store people's relationship status, created using <b>Node</b>, <b>React</b> and <b>MySQL</b>. <a href="https://www.github.com/dheerajk2003/kmm">Repo</a></li>
-                <li className="text-gray-300">A front end site to view delicious recipes, created using <b>React</b> and public api. <a href="https://www.github.com/dheerajk2003/Recipe-Website">Repo</a> <a href="https://extraordinary-sorbet-821c3d.netlify.app">Site</a></li>
-                <li className="text-gray-300">A Tailor shop landing page, created using only <b>React</b> without any additional libraries. <a href="https://www.github.com/dheerajk2003/Omax">Repo</a> <a href="https://imaginative-florentine-55718c.netlify.app/">Site</a></li>
+                <li className="text-gray-300">A full stack website to view and upload travel blogs, created using <b>Dotnet</b> framework and <b>MsSQL</b>. <a className="text-purple-300" href="https://www.github.com/dheerajk2003/Travelsy">Repo</a></li>
+                <li className="text-gray-300">A full stack website to store people's relationship status, created using <b>Node</b>, <b>React</b> and <b>MySQL</b>. <a className="text-purple-300" href="https://www.github.com/dheerajk2003/kmm">Repo</a></li>
+                <li className="text-gray-300">A front end site to view delicious recipes, created using <b>React</b> and public api. <a className="text-purple-300" href="https://www.github.com/dheerajk2003/Recipe-Website">Repo</a> <a className="text-purple-300" href="https://extraordinary-sorbet-821c3d.netlify.app">Site</a></li>
+                <li className="text-gray-300">A Tailor shop landing page, created using only <b>React</b> without any additional libraries. <a className="text-purple-300" href="https://www.github.com/dheerajk2003/Omax">Repo</a> <a className="text-purple-300" href="https://imaginative-florentine-55718c.netlify.app/">Site</a></li>
             </ul>
             <h2 className="font-semibold text-xl mt-2">Skills</h2>
             <hr />
