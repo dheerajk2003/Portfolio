@@ -4,7 +4,7 @@ export function Projects() {
             <h2 id="projhead" className="content w-32 mx-auto absolute -translate-x-1/2 left-1/2 text-4xl font-base border-b border-white border-1 content">Projects</h2>
             <div className="w-full h-full p-5 py-16 md:p-20 flex flex-col md:flex-row justify-around items-center gap-10">
                 <div className="w-full md:w-1/3 h-5/6 border border-1 border-white rounded-2xl overflow-hidden transition-transform card hover:shadow-md hover:shadow-[#7F27FF]">
-                    <img className="hidden md:block w-full" src="./recipe.jpg" alt="" />
+                    <img className="hidden md:block w-full" src="./travellsy.jpg" alt="" />
                     <div className="h-full md:h-1/2 px-5 flex flex-col justify-between gap-5">
                         <div>
                             <h3 className="text-2xl font-medium my-3">Travelsy</h3>
