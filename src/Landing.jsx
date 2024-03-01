@@ -1,8 +1,7 @@
 import { useEffect } from "react";
-import { Home } from "./pages/Home";
-import { Links } from "./pages/Links";
-import { Projects } from "./pages/Projects";
-import { Skills } from "./pages/Skills";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { Resume } from "./pages/Resume";
+import { Container } from "./pages/Container";
 
 function cursorMove() {
     var myCur = document.getElementById("cursor");
@@ -67,10 +66,12 @@ export function Landing() {
             <div id="cursor">
 
             </div>
-            <Home />
-            <Projects />
-            <Skills />
-            <Links />
+            <BrowserRouter>
+                <Routes>
+                    <Route path="/" element={<Container />} />
+                    <Route path="/resume" element={<Resume />} />
+                </Routes>
+            </BrowserRouter>
         </div>
     )
 }

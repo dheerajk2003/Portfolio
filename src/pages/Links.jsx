@@ -1,6 +1,6 @@
 export function Links() {
     return (
-        <div className="w-full h-full pt-10 bg-[#161718]">
+        <div id="links" className="w-full h-full pt-10 bg-[#161718]">
             <h2 className="w-20 mx-auto text-4xl font-base border-b border-white border-1 content">Links</h2>
             <div className="w-full p-10 flex justify-center items-center gap-10">
                 <a className="hover:scale-105 content" href="https://github.com/dheerajk2003">
