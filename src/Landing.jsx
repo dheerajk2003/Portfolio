@@ -1,6 +1,4 @@
 import { useEffect } from "react";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { Resume } from "./pages/Resume";
 import { Container } from "./pages/Container";
 
 function cursorMove() {
@@ -66,12 +64,7 @@ export function Landing() {
             <div id="cursor">
 
             </div>
-            <BrowserRouter>
-                <Routes>
-                    <Route path="/" element={<Container />} />
-                    <Route path="/resume" element={<Resume />} />
-                </Routes>
-            </BrowserRouter>
+            <Container />
         </div>
     )
 }

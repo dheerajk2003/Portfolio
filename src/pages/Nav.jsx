@@ -8,7 +8,7 @@ export function Nav(){
                 <a className="py-1 relative text-base font-normal links" href="#skills">Skills</a>
                 <a className="py-1 relative text-base font-normal links" href="#links">Links</a>
             </div>
-            <a className="text-base font-medium border border-1 border-white p-3 px-5 rounded-md hover:bg-white hover:text-black transition-colors shaBox" href="/resume">Resume</a>
+            <a className="text-base font-medium border border-1 border-white p-3 px-5 rounded-md hover:bg-white hover:text-black transition-colors shaBox" href="https://resumedheeraj.netlify.app/">Resume</a>
         </div>
     )
 }
