@@ -11,11 +11,11 @@ export function Projects() {
                             <p className="inline" >Travelsy is a site where one can share and explore traveling places.</p>
                             <a href="https://github.com/dheerajk2003/Travelsy" className="ml-1 inline text-blue-300">More</a>
                         </div>
-                        <div className="h-10 mb-4 md:mb-1 flex flex-row justify-around">
-                            <div className="w-10 h-10"><img className=" " src="./svgs/c-sharp.svg"/></div>
-                            <div className="w-10 h-10"><img className=" " src="./svgs/asp.svg"/></div>
-                            <div className="w-10 h-10"><img className=" " src="./svgs/html.svg"/></div>
-                            <div className="w-10 h-10"><img className=" " src="./svgs/sql.svg"/></div>
+                        <div className="h-10 mb-4 md:mb-1 lg:mb-14 flex flex-row justify-around">
+                            <div className="w-10 h-10 lg:w-14 lg:h-14"><img className=" " src="./svgs/c-sharp.svg"/></div>
+                            <div className="w-10 h-10 lg:w-14 lg:h-14"><img className=" " src="./svgs/asp.svg"/></div>
+                            <div className="w-10 h-10 lg:w-14 lg:h-14"><img className=" " src="./svgs/html.svg"/></div>
+                            <div className="w-10 h-10 lg:w-14 lg:h-14"><img className=" " src="./svgs/sql.svg"/></div>
                         </div>
                     </div>
                 </div>
@@ -27,11 +27,11 @@ export function Projects() {
                             <p className="inline" >Kmm is a database of candidate who are looking for a special person in their life.</p>
                             <a href="https://github.com/dheerajk2003/KMM" className="ml-1 inline text-blue-300">More</a>
                         </div>
-                        <div className="h-10 mb-4 md:mb-1 flex flex-row justify-around">
-                            <div className="w-10 h-10"><img className=" " src="./svgs/node.svg"/></div>
-                            <div className="w-10 h-10"><img className=" " src="./svgs/react.svg"/></div>
-                            <div className="w-10 h-10"><img className=" " src="./svgs/tailwind.svg"/></div>
-                            <div className="w-10 h-10"><img className=" " src="./svgs/mysql.svg"/></div>
+                        <div className="h-10 mb-4 md:mb-1 lg:mb-14 flex flex-row justify-around">
+                            <div className="w-10 h-10 lg:w-14 lg:h-14"><img className=" " src="./svgs/node.svg"/></div>
+                            <div className="w-10 h-10 lg:w-14 lg:h-14"><img className=" " src="./svgs/react.svg"/></div>
+                            <div className="w-10 h-10 lg:w-14 lg:h-14"><img className=" " src="./svgs/tailwind.svg"/></div>
+                            <div className="w-10 h-10 lg:w-14 lg:h-14"><img className=" " src="./svgs/mysql.svg"/></div>
                         </div>
                     </div>
                 </div>
@@ -43,11 +43,11 @@ export function Projects() {
                             <p className="inline">It is a site where you can search and find tasty recipes.</p>
                             <a href="https://github.com/dheerajk2003/Recipe-Website" className="ml-1 inline text-blue-300">More</a>
                         </div>
-                        <div className="mb-4 md:mb-1 h-10 flex flex-row justify-around">
-                            <div className="w-10 h-10"><img className=" " src="./svgs/react.svg"/></div>
-                            <div className="w-10 h-10"><img className=" " src="./svgs/html.svg"/></div>
-                            <div className="w-10 h-10"><img className=" " src="./svgs/css.svg"/></div>
-                            <div className="w-10 h-10"><img className=" " src="./svgs/js.svg"/></div>
+                        <div className="mb-4 md:mb-1 lg:mb-14 h-10 flex flex-row justify-around">
+                            <div className="w-10 h-10 lg:w-14 lg:h-14"><img className=" " src="./svgs/react.svg"/></div>
+                            <div className="w-10 h-10 lg:w-14 lg:h-14"><img className=" " src="./svgs/html.svg"/></div>
+                            <div className="w-10 h-10 lg:w-14 lg:h-14"><img className=" " src="./svgs/css.svg"/></div>
+                            <div className="w-10 h-10 lg:w-14 lg:h-14"><img className=" " src="./svgs/js.svg"/></div>
                         </div>
                     </div>
                 </div>
