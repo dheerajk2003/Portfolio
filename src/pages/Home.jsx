@@ -9,9 +9,9 @@ export function Home(){
                     <h1 className="text-6xl font-bold mb-2 content inline-block">Hi,</h1>
                     <h1 className="text-6xl font-bold mb-2 content block">I am' Dheeraj,</h1>
                     <div className="mt-6 mb-2">
-                        <p className="text-lg content">Full Stack Web Developer</p>
+                        <p className="text-lg content">Software Developer</p>
                         <p className="text-lg content">Currently Persuing</p>
-                        <p className="text-lg content">Bacherlor of Computer Applications</p>
+                        <p className="text-lg content">Master of Computer Applications</p>
                     </div>
                 </div>
                 <div className="hidden md:block h-80 w-80 ml-10 border border-3 border-white rounded-full overflow-hidden shaBox">
