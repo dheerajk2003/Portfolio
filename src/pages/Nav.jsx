@@ -1,3 +1,4 @@
+
 export function Nav(){
     return (
         <div className="w-full max-w-screen absolute top-0 left-0 pt-5 px-3 flex justify-between items-center">
@@ -8,7 +9,7 @@ export function Nav(){
                 <a className="py-1 relative text-base font-normal links" href="#skills">Skills</a>
                 <a className="py-1 relative text-base font-normal links" href="#links">Links</a>
             </div>
-            <a className="text-base font-medium border border-1 border-white p-3 px-5 rounded-md hover:bg-white hover:text-black transition-colors shaBox" href="https://resumedheeraj.netlify.app/">Resume</a>
+            <a className="text-base font-medium border border-1 border-white p-3 px-5 rounded-md hover:bg-white hover:text-black transition-colors shaBox" href="./resume.pdf" download="resume.pdf">Resume</a>
         </div>
     )
 }
